@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{FD09766E-E82C-482B-BA7E-0A6234C99A1E}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Leetcode</RootNamespace>
+    <AssemblyName>Leetcode</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="_2017\August2017\Aug09th2017\_208ImplementTriePrefixTree.cs" />
+    <Compile Include="_2017\August2017\Aug09th2017\_212WordSearchII.cs" />
+    <Compile Include="_2017\August2017\Aug09th2017\_215KthLargestElementInAnArray.cs" />
+    <Compile Include="_2017\August2017\Aug10th2017\_218TheSkylineProblem.cs" />
+    <Compile Include="_2017\August2017\Aug10th2017\_227BasicCalculatorII.cs" />
+    <Compile Include="_2017\August2017\Aug10th2017\_230KthSmallestElementInABST.cs" />
+    <Compile Include="_2017\August2017\Aug27th2017\_236LowestCommonAncestorOfABinaryTree.cs" />
+    <Compile Include="_2017\August2017\Aug27th2017\_237DeleteNodeInALinkedList.cs" />
+    <Compile Include="_2017\August2017\Aug27th2017\_239SlidingWindowMaximum.cs" />
+    <Compile Include="_2017\August2017\Aug28th2017\_328OddEvenLinkedList.cs" />
+    <Compile Include="_2017\August2017\Aug28th2017\_334IncreasingTripletSubsequence.cs" />
+    <Compile Include="_2017\August2017\Aug28th2017\_341FlattenNestedListIterator.cs" />
+    <Compile Include="_2017\August2017\Aug29th2017\_283MoveZeroes.cs" />
+    <Compile Include="_2017\August2017\Aug29th2017\_289GameOfLife.cs" />
+    <Compile Include="_2017\August2017\Aug29th2017\_300LongestIncreasingSubsequence.cs" />
+    <Compile Include="_2017\August2017\Aug30th2017\_226InvertBinaryTree.cs" />
+    <Compile Include="_2017\August2017\Aug30th2017\_322CoinChange.cs" />
+    <Compile Include="_2017\August2017\Aug30th2017\_347TopKFrequentElements.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

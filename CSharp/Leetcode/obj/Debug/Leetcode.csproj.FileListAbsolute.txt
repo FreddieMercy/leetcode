@@ -1,0 +1,26 @@
+c:/users/junhao zhang/documents/visual studio 2017/Projects/Leetcode/Leetcode/obj/Debug/Leetcode.csprojResolveAssemblyReference.cache
+c:/users/junhao zhang/documents/visual studio 2017/Projects/Leetcode/Leetcode/bin/Debug/Leetcode.exe.config
+c:/users/junhao zhang/documents/visual studio 2017/Projects/Leetcode/Leetcode/bin/Debug/Leetcode.exe
+c:/users/junhao zhang/documents/visual studio 2017/Projects/Leetcode/Leetcode/bin/Debug/Leetcode.pdb
+c:/users/junhao zhang/documents/visual studio 2017/Projects/Leetcode/Leetcode/obj/Debug/Leetcode.exe
+c:/users/junhao zhang/documents/visual studio 2017/Projects/Leetcode/Leetcode/obj/Debug/Leetcode.pdb
+E:/leetcode/CSharp/Leetcode/bin/Debug/Leetcode.exe.config
+E:/leetcode/CSharp/Leetcode/bin/Debug/Leetcode.exe
+E:/leetcode/CSharp/Leetcode/bin/Debug/Leetcode.pdb
+E:/leetcode/CSharp/Leetcode/obj/Debug/Leetcode.csprojResolveAssemblyReference.cache
+E:/leetcode/CSharp/Leetcode/obj/Debug/Leetcode.exe
+E:/leetcode/CSharp/Leetcode/obj/Debug/Leetcode.pdb
+/Users/junhaozhang/Documents/VM_Share/leetcode/CSharp/Leetcode/bin/Debug/Leetcode.exe.config
+/Users/junhaozhang/Documents/VM_Share/leetcode/CSharp/Leetcode/bin/Debug/Leetcode.exe
+/Users/junhaozhang/Documents/VM_Share/leetcode/CSharp/Leetcode/bin/Debug/Leetcode.pdb
+/Users/junhaozhang/Documents/VM_Share/leetcode/CSharp/Leetcode/obj/Debug/Leetcode.csprojResolveAssemblyReference.cache
+/Users/junhaozhang/Documents/VM_Share/leetcode/CSharp/Leetcode/obj/Debug/Leetcode.csproj.CoreCompileInputs.cache
+/Users/junhaozhang/Documents/VM_Share/leetcode/CSharp/Leetcode/obj/Debug/Leetcode.exe
+/Users/junhaozhang/Documents/VM_Share/leetcode/CSharp/Leetcode/obj/Debug/Leetcode.pdb
+C:\Users\junhao.zhang.freddie\gitHub\leetcode\CSharp\Leetcode\bin\Debug\Leetcode.exe.config
+C:\Users\junhao.zhang.freddie\gitHub\leetcode\CSharp\Leetcode\bin\Debug\Leetcode.exe
+C:\Users\junhao.zhang.freddie\gitHub\leetcode\CSharp\Leetcode\bin\Debug\Leetcode.pdb
+C:\Users\junhao.zhang.freddie\gitHub\leetcode\CSharp\Leetcode\obj\Debug\Leetcode.exe
+C:\Users\junhao.zhang.freddie\gitHub\leetcode\CSharp\Leetcode\obj\Debug\Leetcode.pdb
+C:\Users\junhao.zhang.freddie\gitHub\leetcode\CSharp\Leetcode\obj\Debug\Leetcode.csprojResolveAssemblyReference.cache
+C:\Users\junhao.zhang.freddie\gitHub\leetcode\CSharp\Leetcode\obj\Debug\Leetcode.csproj.CoreCompileInputs.cache
