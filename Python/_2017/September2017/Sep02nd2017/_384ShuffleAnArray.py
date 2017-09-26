@@ -1,3 +1,4 @@
+import random
 class Solution(object):
     def __init__(self, nums):
         self.reset = lambda: nums

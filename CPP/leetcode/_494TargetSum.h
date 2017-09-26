@@ -17,14 +17,22 @@
 using namespace std;
 
 class Solution {
-public:
-	vector<int> getRow(int rowIndex) {
-		vector<int> ans = { 1 };
-
-		for (int i = 0; i < rowIndex; ++i) {
-			int tmp = ans[i] * (rowIndex - i) / (i + 1);
-			ans.push_back(tmp);
+private:
+	int ans = 0;
+	void dfs(vector<int> nums, int S, int index, int sum) {
+		if (index == nums.size()) {
+			if (sum == S) {
+				ans++;
+			}
 		}
+		else {
+			dfs(nums, S, index + 1, sum + nums[index]);
+			dfs(nums, S, index + 1, sum - nums[index]);
+		}
+	}
+public:
+	int findTargetSumWays(vector<int>& nums, int S) {
+		dfs(nums, S, 0, 0);
 		return ans;
 	}
 };

@@ -1,3 +1,4 @@
+import string
 class Solution(object):
     def firstUniqChar(self, s):
         """
