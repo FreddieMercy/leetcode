@@ -1,3 +1,3 @@
 from _2017.September2017.Sep04th2017._72EditDistance import *
 x =Solution()
-print(x.minDistance("prosperity","properties"))
+print(x.minDistance("a","ab"))
