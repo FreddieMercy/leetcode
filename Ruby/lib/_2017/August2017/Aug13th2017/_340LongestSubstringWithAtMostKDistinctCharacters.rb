@@ -6,11 +6,20 @@
 # @param {Integer} k
 # @return {Integer}
 def length_of_longest_substring_k_distinct(s, k)
-    l = 1
-    c = Array.new(k)
-    index = 0
+    l = 0
+    c = {}
     for i in 0...s.length-1
       
+      if c.length < k or not c.has_key?(s[i])
+        
+        c[s[i]] = i
+        l+=1
+      else
+        
+      end
     
     end
+    
+  
+    return l
 end
