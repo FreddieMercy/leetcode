@@ -2,4 +2,8 @@
 # To change this template file, choose Tools | Templates
 # and open the template in the editor.
 
-puts "Hello World"
+# @param {Integer} n
+# @return {Integer}
+def max_a(n)
+    
+end
