@@ -2,7 +2,7 @@
 # To change this template file, choose Tools | Templates
 # and open the template in the editor.
 
-class Excel
+class Excel #Solution in Java
 
 =begin
     :type h: Integer
@@ -47,15 +47,12 @@ class Excel
 =end
     def sum(r, c, strs)
       i  =strs[0].split(":")
-          
       @board[r][@table[c]] = ((i[1]==nil)?@board[i[0][1].to_i][@table[i[0][0]]]:Array.new(i[1][1].to_i-i[0][1].to_i+1).fill{|x| i[0][1].to_i+x}.map{|row| row = ((i[0][0]==i[1][0])?@board[row][@table[i[0][0]]]:@board[row][@table[i[0][0]]..@table[i[1][0]]].sum) }.sum)
-
-    if strs.length > 1
-      j = strs[1].split(":")
-        
-      @board[r][@table[c]] += ((j[1]==nil)?@board[j[0][1].to_i][@table[j[0][0]]]:Array.new(j[1][1].to_i-j[0][1].to_i+1).fill{|x| j[0][1].to_i+x}.map{|row| row = ((j[0][0]==j[1][0])?@board[row][@table[j[0][0]]]:@board[row][@table[j[0][0]]..@table[j[1][0]]].sum) }.sum)
-        end
-        return @board[r][@table[c]]
+      if strs.length > 1
+        j = strs[1].split(":")      
+        @board[r][@table[c]] += ((j[1]==nil)?@board[j[0][1].to_i][@table[j[0][0]]]:Array.new(j[1][1].to_i-j[0][1].to_i+1).fill{|x| j[0][1].to_i+x}.map{|row| row = ((j[0][0]==j[1][0])?@board[row][@table[j[0][0]]]:@board[row][@table[j[0][0]]..@table[j[1][0]]].sum) }.sum)
+      end
+      return @board[r][@table[c]]
     end
 end
 

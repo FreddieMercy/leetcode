@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package _2017.June2017.Jun20th2017;
+package _2017.June2017.Jun20th2017._631DesignExcelSumFormula;
 import java.lang.*;
 import java.util.*;
 /**
