@@ -6,20 +6,27 @@
 # @param {Integer} k
 # @return {Integer}
 def length_of_longest_substring_k_distinct(s, k)
+  if k <=0 
+    return 0
+  end
+  if s.length <= k
+    return s.length
+  end
+    ans = 0
     l = 0
     c = {}
-    for i in 0...s.length-1
-      
-      if c.length < k or not c.has_key?(s[i])
+    q = []
+    for i in 0...s.length
+      if q.include?(s[i])
+        q.delete(s[i])
+      elsif q.length >= k
         
-        c[s[i]] = i
-        l+=1
-      else
-        
+        ans = [ans,l].max
+        l = i-c[q.shift]-1
       end
-    
+      c[s[i]] = i
+      q.push(s[i])
+      l+=1
     end
-    
-  
-    return l
+    return [ans,l].max
 end
