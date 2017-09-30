@@ -8,8 +8,10 @@
 
 import Foundation
 
-class Solution{
-    func fred()->Void{
-        print("Freddie")
+class File{
+    class Solution{
+        func fred()->Void{
+            print("Freddie")
+        }
     }
 }

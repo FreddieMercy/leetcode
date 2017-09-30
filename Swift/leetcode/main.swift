@@ -8,7 +8,7 @@
 
 import Foundation
 
-var x:Solution = Solution()
+var x:File.Solution = File.Solution()
 print("Hello")
 x.fred()
 

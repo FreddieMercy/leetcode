@@ -47,13 +47,19 @@ class Excel #Solution in Java
 =end
     def sum(r, c, strs)
       i  =strs[0].split(":")
-      @board[r][@table[c]] = ((i[1]==nil)?@board[i[0][1].to_i][@table[i[0][0]]]:Array.new(i[1][1].to_i-i[0][1].to_i+1).fill{|x| i[0][1].to_i+x}.map{|row| row = ((i[0][0]==i[1][0])?@board[row][@table[i[0][0]]]:@board[row][@table[i[0][0]]..@table[i[1][0]]].sum) }.sum)
+      @board[r][@table[c]] = find1(i)
       if strs.length > 1
         j = strs[1].split(":")      
-        @board[r][@table[c]] += ((j[1]==nil)?@board[j[0][1].to_i][@table[j[0][0]]]:Array.new(j[1][1].to_i-j[0][1].to_i+1).fill{|x| j[0][1].to_i+x}.map{|row| row = ((j[0][0]==j[1][0])?@board[row][@table[j[0][0]]]:@board[row][@table[j[0][0]]..@table[j[1][0]]].sum) }.sum)
+        @board[r][@table[c]] += find1(j)
       end
       return @board[r][@table[c]]
     end
+    
+    def find1(i)
+        return ((i[1]==nil)?@board[i[0][1].to_i][@table[i[0][0]]]:Array.new(i[1][1].to_i-i[0][1].to_i+1).fill{|x| i[0][1].to_i+x}.map{|row| row = ((i[0][0]==i[1][0])?@board[row][@table[i[0][0]]]:@board[row][@table[i[0][0]]..@table[i[1][0]]].sum) }.sum)
+    end
+    
+    private :find1
 end
 
 # Your Excel object will be instantiated and called as such:
@@ -61,4 +67,5 @@ end
 # obj.set(r, c, v)
 # param_2 = obj.get(r, c)
 # param_3 = obj.sum(r, c, strs)
+
 

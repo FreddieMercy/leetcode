@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		E7433DEE1F7E3FCA006204CB /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7433DED1F7E3FCA006204CB /* main.swift */; };
 		E7433E021F7E47D9006204CB /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7433E011F7E47D9006204CB /* File.swift */; };
+		E7433E041F7F3353006204CB /* _644MaximumAverageSubarrayII.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7433E031F7F3353006204CB /* _644MaximumAverageSubarrayII.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,6 +28,7 @@
 		E7433DEA1F7E3FCA006204CB /* leetcode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = leetcode; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7433DED1F7E3FCA006204CB /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		E7433E011F7E47D9006204CB /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		E7433E031F7F3353006204CB /* _644MaximumAverageSubarrayII.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _644MaximumAverageSubarrayII.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +127,7 @@
 			isa = PBXGroup;
 			children = (
 				E7433E011F7E47D9006204CB /* File.swift */,
+				E7433E031F7F3353006204CB /* _644MaximumAverageSubarrayII.swift */,
 			);
 			path = Aug21st2017;
 			sourceTree = "<group>";
@@ -189,6 +192,7 @@
 			files = (
 				E7433DEE1F7E3FCA006204CB /* main.swift in Sources */,
 				E7433E021F7E47D9006204CB /* File.swift in Sources */,
+				E7433E041F7F3353006204CB /* _644MaximumAverageSubarrayII.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
