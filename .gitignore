@@ -8,3 +8,4 @@ Java/out/**
 Scala/**.sbt
 Scala/project/**
 Scala/target/**
+Scala/.idea/**
