@@ -9,3 +9,5 @@ Scala/build.sbt
 Scala/project/**
 Scala/target/**
 Scala/.idea/**
+Swift/.vscode
+Swift/leetcode.xcodeproj
