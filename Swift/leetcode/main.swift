@@ -8,7 +8,6 @@
 
 import Foundation
 
-var x:File.Solution = File.Solution()
-print("Hello")
-x.fred()
+var x:_246StrobogrammaticNumber.Solution = _246StrobogrammaticNumber.Solution()
+print(x.isStrobogrammatic("1"))
 

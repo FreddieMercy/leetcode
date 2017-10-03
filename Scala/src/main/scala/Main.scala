@@ -1,4 +1,9 @@
+import _2017.August2017.Aug18th2017._505TheMazeII;
 object Main extends App {
-  val ages = Seq(42, 75, 29, 64)
-  println(s"The oldest person is ${ages.max}")
+
+  val a = Array(Array(0,0,1,0,0),Array(0,0,0,0,0),Array(0,0,0,1,0),Array(1,1,0,1,1),Array(0,0,0,0,0))
+  val b = Array(0,4)
+  val c= Array(4,4)
+  val x = new _505TheMazeII()
+  println(x.Solution.shortestDistance(a,b,c))
 }
