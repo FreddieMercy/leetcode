@@ -11,3 +11,4 @@ Scala/target/**
 Scala/.idea/**
 Swift/.vscode
 Swift/leetcode.xcodeproj
+Java/.idea/vcs.xml
