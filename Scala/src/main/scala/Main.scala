@@ -1,4 +1,4 @@
-import _2017.August2017.Aug18th2017._505TheMazeII;
+import _2017.June2017.Jun22nd2017._505TheMazeII;
 object Main extends App {
 
   val a = Array(Array(0,0,1,0,0),Array(0,0,0,0,0),Array(0,0,0,1,0),Array(1,1,0,1,1),Array(0,0,0,0,0))

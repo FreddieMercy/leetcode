@@ -1,4 +1,4 @@
-package _2017.August2017.Aug18th2017
+package _2017.June2017.Jun22nd2017
 import java.util
 
 class _505TheMazeII {
