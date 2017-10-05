@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package _2017.July2017.July28th2017._326PowerOfThree;
+package _2017.August2017.Aug10th2017._344ReverseString;
 import java.lang.*;
 import java.util.*;
 /**
@@ -11,8 +11,7 @@ import java.util.*;
  * @author junhao.zhang.freddie
  */
 public class Solution {
-    public boolean isPowerOfThree(int n) {
-        double i = Math.log10(n)/Math.log10(3);
-        return i == (int)i;
+    public String reverseString(String s) {
+        return new StringBuilder(s).reverse().toString();
     }
 }

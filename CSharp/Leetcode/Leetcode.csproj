@@ -44,12 +44,12 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="_2017\August2017\Aug09th2017\_208ImplementTriePrefixTree.cs" />
-    <Compile Include="_2017\August2017\Aug09th2017\_212WordSearchII.cs" />
-    <Compile Include="_2017\August2017\Aug09th2017\_215KthLargestElementInAnArray.cs" />
-    <Compile Include="_2017\August2017\Aug10th2017\_218TheSkylineProblem.cs" />
-    <Compile Include="_2017\August2017\Aug10th2017\_227BasicCalculatorII.cs" />
-    <Compile Include="_2017\August2017\Aug10th2017\_230KthSmallestElementInABST.cs" />
+    <Compile Include="_2017\August2017\Aug25th2017\_208ImplementTriePrefixTree.cs" />
+    <Compile Include="_2017\August2017\Aug25th2017\_212WordSearchII.cs" />
+    <Compile Include="_2017\August2017\Aug25th2017\_215KthLargestElementInAnArray.cs" />
+    <Compile Include="_2017\August2017\Aug26th2017\_218TheSkylineProblem.cs" />
+    <Compile Include="_2017\August2017\Aug26th2017\_227BasicCalculatorII.cs" />
+    <Compile Include="_2017\August2017\Aug26th2017\_230KthSmallestElementInABST.cs" />
     <Compile Include="_2017\August2017\Aug27th2017\_236LowestCommonAncestorOfABinaryTree.cs" />
     <Compile Include="_2017\August2017\Aug27th2017\_237DeleteNodeInALinkedList.cs" />
     <Compile Include="_2017\August2017\Aug27th2017\_239SlidingWindowMaximum.cs" />

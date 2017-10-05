@@ -3,16 +3,18 @@
   <MonoDevelop.Ide.Workbench ActiveDocument="Leetcode/Program.cs">
     <Files>
       <File FileName="Leetcode/Program.cs" Line="46" Column="1" />
-      <File FileName="Leetcode/_2017/August2017/Aug10th2017/_218TheSkylineProblem.cs" Line="152" Column="2" />
-      <File FileName="Leetcode/_2017/August2017/Aug09th2017/_208ImplementTriePrefixTree.cs" Line="1" Column="1" />
-      <File FileName="Leetcode/_2017/August2017/Aug10th2017/_227BasicCalculatorII.cs" Line="1" Column="1" />
-      <File FileName="Leetcode/_2017/August2017/Aug10th2017/_230KthSmallestElementInABST.cs" Line="1" Column="1" />
+      <File FileName="Leetcode/_2017/August2017/Aug26th2017/_218TheSkylineProblem.cs" Line="5" Column="48" />
+      <File FileName="Leetcode/_2017/August2017/Aug25th2017/_208ImplementTriePrefixTree.cs" Line="5" Column="48" />
+      <File FileName="Leetcode/_2017/August2017/Aug26th2017/_227BasicCalculatorII.cs" Line="5" Column="48" />
+      <File FileName="Leetcode/_2017/August2017/Aug26th2017/_230KthSmallestElementInABST.cs" Line="5" Column="48" />
       <File FileName="Leetcode/_2017/August2017/Aug27th2017/_236LowestCommonAncestorOfABinaryTree.cs" Line="1" Column="4" />
       <File FileName="Leetcode/_2017/August2017/Aug27th2017/_237DeleteNodeInALinkedList.cs" Line="16" Column="40" />
       <File FileName="Leetcode/_2017/August2017/Aug27th2017/_239SlidingWindowMaximum.cs" Line="23" Column="33" />
       <File FileName="Leetcode/_2017/August2017/Aug29th2017/_283MoveZeroes.cs" Line="25" Column="1" />
       <File FileName="Leetcode/_2017/August2017/Aug29th2017/_289GameOfLife.cs" Line="79" Column="2" />
       <File FileName="Leetcode/_2017/August2017/Aug29th2017/_300LongestIncreasingSubsequence.cs" Line="83" Column="2" />
+      <File FileName="Leetcode/_2017/August2017/Aug25th2017/_212WordSearchII.cs" Line="5" Column="48" />
+      <File FileName="Leetcode/_2017/August2017/Aug25th2017/_215KthLargestElementInAnArray.cs" Line="5" Column="48" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
@@ -22,7 +24,6 @@
       <Breakpoint file="/Users/junhaozhang/Documents/VM_Share/leetcode/CSharp/Leetcode/August2017/Aug09th2017/_212WordSearchII.cs" relfile="Leetcode/August2017/Aug09th2017/_212WordSearchII.cs" line="78" column="1" />
       <Breakpoint file="/Users/junhaozhang/Documents/VM_Share/leetcode/CSharp/Leetcode/August2017/Aug09th2017/_212WordSearchII.cs" relfile="Leetcode/August2017/Aug09th2017/_212WordSearchII.cs" line="37" column="1" />
       <Breakpoint file="/Users/junhaozhang/Documents/VM_Share/leetcode/CSharp/Leetcode/_2017/August2017/Aug10th2017/_218TheSkylineProblem.cs" relfile="Leetcode/_2017/August2017/Aug10th2017/_218TheSkylineProblem.cs" line="155" column="1" />
-      <Breakpoint file="/Users/junhaozhang/Documents/VM_Share/leetcode/CSharp/Leetcode/Program.cs" relfile="Leetcode/Program.cs" line="46" column="20" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />

@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package _2017.July2017.July27th2017._279PerfectSquares;
+package _2017.August2017.Aug09th2017._279PerfectSquares;
 
 /**
  *

@@ -2,7 +2,7 @@
 using System.Collections.ObjectModel;
 using System.Collections.Generic;
 
-namespace Leetcode._2017.August2017.Aug09th2017._212WordSearchII
+namespace Leetcode._2017.August2017.Aug25th2017._212WordSearchII
 {
     public class Solution
     {

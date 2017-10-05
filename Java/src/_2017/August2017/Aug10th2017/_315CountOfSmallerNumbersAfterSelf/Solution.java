@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package _2017.July2017.July28th2017._315CountOfSmallerNumbersAfterSelf;
+package _2017.August2017.Aug10th2017._315CountOfSmallerNumbersAfterSelf;
 import java.util.*;
 import java.lang.*;
 /**

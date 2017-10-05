@@ -19,18 +19,6 @@
     <Filter Include="Header Files\_2017\July2017">
       <UniqueIdentifier>{1fb9f92a-4432-4b71-8b6b-974794d5163c}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Header Files\_2017\July2017\July3rd2017">
-      <UniqueIdentifier>{765e5508-9337-4ff0-b220-5055fb640b87}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Header Files\_2017\July2017\July7th2017">
-      <UniqueIdentifier>{dee6b49b-d3d1-4657-b8c3-281c28e245f5}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Header Files\_2017\July2017\July8th2017">
-      <UniqueIdentifier>{21f96fb7-d290-40d2-9e0d-0c88b04c4722}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Header Files\_2017\July2017\July9th2017">
-      <UniqueIdentifier>{21fc3143-ca67-44ea-a9c3-55753c9d17a9}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Header Files\_2017\July2017\July10th2017">
       <UniqueIdentifier>{3881f28e-3a2e-4e8c-9d82-520364ecc877}</UniqueIdentifier>
     </Filter>
@@ -124,8 +112,20 @@
     <Filter Include="Header Files\_2017\Aug2017\Aug12th2017">
       <UniqueIdentifier>{6b5899c7-f841-4582-9ad9-a967ff3e7d13}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Header Files\_2017\Jun2017\Jun24th2017">
+    <Filter Include="Header Files\_2017\July2017\July05th2017">
       <UniqueIdentifier>{00253670-ff5c-46c5-a937-2fa43479677e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\_2017\July2017\July06th2017">
+      <UniqueIdentifier>{765e5508-9337-4ff0-b220-5055fb640b87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\_2017\July2017\July07th2017">
+      <UniqueIdentifier>{dee6b49b-d3d1-4657-b8c3-281c28e245f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\_2017\July2017\July08th2017">
+      <UniqueIdentifier>{21f96fb7-d290-40d2-9e0d-0c88b04c4722}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\_2017\July2017\July09th2017">
+      <UniqueIdentifier>{21fc3143-ca67-44ea-a9c3-55753c9d17a9}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -136,7 +136,7 @@
       <Filter>Header Files\_2017\May2017\May31st2017</Filter>
     </ClCompile>
     <ClCompile Include="_109ConvertSortedListToBinarySearchTree.h">
-      <Filter>Header Files\_2017\July2017\July8th2017</Filter>
+      <Filter>Header Files\_2017\July2017\July08th2017</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -288,13 +288,13 @@
       <Filter>Header Files\_2017\Jun2017\Jun14th2017</Filter>
     </ClInclude>
     <ClInclude Include="_221MaximalSquare.h">
-      <Filter>Header Files\_2017\Jun2017\Jun24th2017</Filter>
+      <Filter>Header Files\_2017\July2017\July05th2017</Filter>
     </ClInclude>
     <ClInclude Include="_4MedianofTwoSortedArrays.h">
-      <Filter>Header Files\_2017\Jun2017\Jun24th2017</Filter>
+      <Filter>Header Files\_2017\July2017\July05th2017</Filter>
     </ClInclude>
     <ClInclude Include="_2AddTwoNumbers.h">
-      <Filter>Header Files\_2017\Jun2017\Jun24th2017</Filter>
+      <Filter>Header Files\_2017\July2017\July05th2017</Filter>
     </ClInclude>
     <ClInclude Include="_15_3Sum.h">
       <Filter>Header Files\_2017\Jun2017\Jun17th2017</Filter>
@@ -321,37 +321,37 @@
       <Filter>Header Files\_2017\Jun2017\Jun9th2017</Filter>
     </ClInclude>
     <ClInclude Include="_116PopulatingNextRightPointersInEachNode.h">
-      <Filter>Header Files\_2017\July2017\July3rd2017</Filter>
+      <Filter>Header Files\_2017\July2017\July06th2017</Filter>
     </ClInclude>
     <ClInclude Include="_257BinaryTreePaths.h">
-      <Filter>Header Files\_2017\July2017\July3rd2017</Filter>
+      <Filter>Header Files\_2017\July2017\July06th2017</Filter>
     </ClInclude>
     <ClInclude Include="_591TagValidator.h">
-      <Filter>Header Files\_2017\July2017\July3rd2017</Filter>
+      <Filter>Header Files\_2017\July2017\July06th2017</Filter>
     </ClInclude>
     <ClInclude Include="_16_3SumClosest.h">
-      <Filter>Header Files\_2017\July2017\July7th2017</Filter>
+      <Filter>Header Files\_2017\July2017\July07th2017</Filter>
     </ClInclude>
     <ClInclude Include="_18_4Sum.h">
-      <Filter>Header Files\_2017\July2017\July7th2017</Filter>
+      <Filter>Header Files\_2017\July2017\July07th2017</Filter>
     </ClInclude>
     <ClInclude Include="_238ProductOfArrayExceptSelf.h">
-      <Filter>Header Files\_2017\July2017\July7th2017</Filter>
+      <Filter>Header Files\_2017\July2017\July07th2017</Filter>
     </ClInclude>
     <ClInclude Include="_166FractionToRecurringDecimal.h">
-      <Filter>Header Files\_2017\July2017\July8th2017</Filter>
+      <Filter>Header Files\_2017\July2017\July08th2017</Filter>
     </ClInclude>
     <ClInclude Include="_268MissingNumber.h">
-      <Filter>Header Files\_2017\July2017\July8th2017</Filter>
+      <Filter>Header Files\_2017\July2017\July08th2017</Filter>
     </ClInclude>
     <ClInclude Include="_134GasStation.h">
-      <Filter>Header Files\_2017\July2017\July9th2017</Filter>
+      <Filter>Header Files\_2017\July2017\July09th2017</Filter>
     </ClInclude>
     <ClInclude Include="_207CourseSchedule.h">
-      <Filter>Header Files\_2017\July2017\July9th2017</Filter>
+      <Filter>Header Files\_2017\July2017\July09th2017</Filter>
     </ClInclude>
     <ClInclude Include="_210CourseScheduleII.h">
-      <Filter>Header Files\_2017\July2017\July9th2017</Filter>
+      <Filter>Header Files\_2017\July2017\July09th2017</Filter>
     </ClInclude>
     <ClInclude Include="_630CourseScheduleIII.h">
       <Filter>Header Files\_2017\July2017\July10th2017</Filter>

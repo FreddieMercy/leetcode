@@ -2,7 +2,7 @@
 using System.Collections.ObjectModel;
 using System.Collections.Generic;
 using System.Collections;
-namespace Leetcode._2017.August2017.Aug10th2017._230KthSmallestElementInABST
+namespace Leetcode._2017.August2017.Aug26th2017._230KthSmallestElementInABST
 {
     //  Definition for a binary tree node.
     public class TreeNode
