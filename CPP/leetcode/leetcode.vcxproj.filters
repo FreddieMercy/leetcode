@@ -82,9 +82,6 @@
     <Filter Include="Header Files\_2017\Jun2017\Jun14th2017">
       <UniqueIdentifier>{3c93a576-c652-4705-9471-17720337c6ae}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Header Files\_2017\Jun2017\Jun27th2017">
-      <UniqueIdentifier>{00253670-ff5c-46c5-a937-2fa43479677e}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Header Files\_2017\Jun2017\Jun17th2017">
       <UniqueIdentifier>{dd244216-17a8-4e7b-a20c-b2454a1c0947}</UniqueIdentifier>
     </Filter>
@@ -93,9 +90,6 @@
     </Filter>
     <Filter Include="Header Files\_2017\Jun2017\Jun9th2017">
       <UniqueIdentifier>{f82e9e18-a596-4488-a570-f85c236ef460}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Header Files\_2017\Jun2017\Jun28th2017">
-      <UniqueIdentifier>{15f8fd11-8d4b-4dfa-b2bf-4dc31c91f425}</UniqueIdentifier>
     </Filter>
     <Filter Include="Header Files\_2017\May2017">
       <UniqueIdentifier>{c8b54830-d82c-4754-8c19-9b40c4c65a28}</UniqueIdentifier>
@@ -129,6 +123,9 @@
     </Filter>
     <Filter Include="Header Files\_2017\Aug2017\Aug12th2017">
       <UniqueIdentifier>{6b5899c7-f841-4582-9ad9-a967ff3e7d13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\_2017\Jun2017\Jun24th2017">
+      <UniqueIdentifier>{00253670-ff5c-46c5-a937-2fa43479677e}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -291,16 +288,13 @@
       <Filter>Header Files\_2017\Jun2017\Jun14th2017</Filter>
     </ClInclude>
     <ClInclude Include="_221MaximalSquare.h">
-      <Filter>Header Files\_2017\Jun2017\Jun27th2017</Filter>
+      <Filter>Header Files\_2017\Jun2017\Jun24th2017</Filter>
     </ClInclude>
     <ClInclude Include="_4MedianofTwoSortedArrays.h">
-      <Filter>Header Files\_2017\Jun2017\Jun27th2017</Filter>
+      <Filter>Header Files\_2017\Jun2017\Jun24th2017</Filter>
     </ClInclude>
     <ClInclude Include="_2AddTwoNumbers.h">
-      <Filter>Header Files\_2017\Jun2017\Jun27th2017</Filter>
-    </ClInclude>
-    <ClInclude Include="_196DeleteDuplicateEmails.h">
-      <Filter>Header Files\_2017\Jun2017\Jun17th2017</Filter>
+      <Filter>Header Files\_2017\Jun2017\Jun24th2017</Filter>
     </ClInclude>
     <ClInclude Include="_15_3Sum.h">
       <Filter>Header Files\_2017\Jun2017\Jun17th2017</Filter>
@@ -317,15 +311,6 @@
     <ClInclude Include="_220ContainsDuplicateIII.h">
       <Filter>Header Files\_2017\Jun2017\Jun18th2017</Filter>
     </ClInclude>
-    <ClInclude Include="_625MinimumFactorization.h">
-      <Filter>Header Files\_2017\Jun2017\Jun28th2017</Filter>
-    </ClInclude>
-    <ClInclude Include="_3LongestSubstringWithoutRepeatingCharacters.h">
-      <Filter>Header Files\_2017\Jun2017\Jun28th2017</Filter>
-    </ClInclude>
-    <ClInclude Include="_197RisingTemperature.h">
-      <Filter>Header Files\_2017\Jun2017\Jun28th2017</Filter>
-    </ClInclude>
     <ClInclude Include="_461HammingDistance.h">
       <Filter>Header Files\_2017\Jun2017\Jun9th2017</Filter>
     </ClInclude>
@@ -334,9 +319,6 @@
     </ClInclude>
     <ClInclude Include="_365WaterAndJugProblem.h">
       <Filter>Header Files\_2017\Jun2017\Jun9th2017</Filter>
-    </ClInclude>
-    <ClInclude Include="_595BigCountries.h">
-      <Filter>Header Files\_2017\Jun2017\Jun15th2017</Filter>
     </ClInclude>
     <ClInclude Include="_116PopulatingNextRightPointersInEachNode.h">
       <Filter>Header Files\_2017\July2017\July3rd2017</Filter>
@@ -436,6 +418,12 @@
     </ClInclude>
     <ClInclude Include="_170TwoSumIII-DataStructureDesign.h">
       <Filter>Header Files\_2017\Aug2017\Aug12th2017</Filter>
+    </ClInclude>
+    <ClInclude Include="_3LongestSubstringWithoutRepeatingCharacters.h">
+      <Filter>Header Files\_2017\Jun2017\Jun15th2017</Filter>
+    </ClInclude>
+    <ClInclude Include="_625MinimumFactorization.h">
+      <Filter>Header Files\_2017\Jun2017\Jun17th2017</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

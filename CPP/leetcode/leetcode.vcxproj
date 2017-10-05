@@ -175,10 +175,7 @@
     <ClInclude Include="_287FindTheDuplicateNumber.h" />
     <ClInclude Include="_414ThirdMaximumNumber.h" />
     <ClInclude Include="_591TagValidator.h" />
-    <ClInclude Include="_595BigCountries.h" />
     <ClInclude Include="_15_3Sum.h" />
-    <ClInclude Include="_196DeleteDuplicateEmails.h" />
-    <ClInclude Include="_197RisingTemperature.h" />
     <ClInclude Include="_217ContainsDuplicate.h" />
     <ClInclude Include="_219ContainsDuplicateII.h" />
     <ClInclude Include="_220ContainsDuplicateIII.h" />
