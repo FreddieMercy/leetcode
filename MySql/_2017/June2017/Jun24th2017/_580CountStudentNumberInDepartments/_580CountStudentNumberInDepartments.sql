@@ -1,0 +1,2 @@
+# Write your MySQL query statement below
+select dept_name as dept_name, count(s.student_id) as student_number from student as s right outer join department as d on s.dept_id = d.dept_id group by d.dept_id order by count(s.student_id) DESC,d.dept_name ASC
