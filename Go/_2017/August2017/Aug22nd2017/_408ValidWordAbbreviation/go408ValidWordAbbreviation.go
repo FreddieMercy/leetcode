@@ -32,7 +32,7 @@ func ValidWordAbbreviation(word string, abbr string) bool {
 			if nums != "" || string(abbr[j]) != "0" {
 				nums += string(abbr[j])
 			} else {
-				return false //IDK why it can't be. Just for passing the Test case 
+				return false //IDK why it can't be. Just for passing the Test case
 			}
 			j += 1
 			found = false
