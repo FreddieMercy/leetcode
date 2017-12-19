@@ -127,6 +127,18 @@
     <Filter Include="Header Files\_2017\July2017\July09th2017">
       <UniqueIdentifier>{21fc3143-ca67-44ea-a9c3-55753c9d17a9}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\_2017\Dec2017">
+      <UniqueIdentifier>{02a98a63-7b12-4f43-971e-54c7a03ed9f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\_2017\Dec2017\Dec17th2017">
+      <UniqueIdentifier>{31b16cba-6704-4bda-a1d8-ce856fe01e3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\_2017\Dec2017\Dec16th2017">
+      <UniqueIdentifier>{04447e2c-7c99-4a41-bf3e-4dceed2852a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\_2017\Dec2017\Dec18th2017">
+      <UniqueIdentifier>{4f5fb259-b8fb-4948-ad38-65cf2590f80b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Source.cpp">
@@ -424,6 +436,33 @@
     </ClInclude>
     <ClInclude Include="_625MinimumFactorization.h">
       <Filter>Header Files\_2017\Jun2017\Jun17th2017</Filter>
+    </ClInclude>
+    <ClInclude Include="_292NimGame.h">
+      <Filter>Header Files\_2017\Dec2017\Dec17th2017</Filter>
+    </ClInclude>
+    <ClInclude Include="_472ConcatenatedWords.h">
+      <Filter>Header Files\_2017\Dec2017\Dec16th2017</Filter>
+    </ClInclude>
+    <ClInclude Include="_502IPO.h">
+      <Filter>Header Files\_2017\Dec2017\Dec16th2017</Filter>
+    </ClInclude>
+    <ClInclude Include="_541ReverseStringII.h">
+      <Filter>Header Files\_2017\Dec2017\Dec16th2017</Filter>
+    </ClInclude>
+    <ClInclude Include="_518CoinChange2.h">
+      <Filter>Header Files\_2017\Dec2017\Dec17th2017</Filter>
+    </ClInclude>
+    <ClInclude Include="_61RotateList.h">
+      <Filter>Header Files\_2017\Dec2017\Dec17th2017</Filter>
+    </ClInclude>
+    <ClInclude Include="_643MaximumAverageSubarrayI.h">
+      <Filter>Header Files\_2017\Dec2017\Dec18th2017</Filter>
+    </ClInclude>
+    <ClInclude Include="_405ConvertANumberToHexadecimal.h">
+      <Filter>Header Files\_2017\Dec2017\Dec18th2017</Filter>
+    </ClInclude>
+    <ClInclude Include="_697DegreeOfAnArray.h">
+      <Filter>Header Files\_2017\Dec2017\Dec18th2017</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
