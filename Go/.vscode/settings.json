@@ -1,0 +1,8 @@
+{
+    "files.autoGuessEncoding": true,
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 500,
+    "go.formatTool": "gofmt",
+    "go.formatFlags": ["-s", "-e"]
+    
+}
