@@ -31,22 +31,11 @@ public class pq {
 
         q.add(new int[] {1, 2});
 
-        q.add(new int[] {1, 0});
-
-        q.add(new int[] {1, 10});
-
         q.add(new int[] {2, 2});
 
         q.add(new int[] {3, 2});
 
-        q.add(new int[] {4, 2});
-
-
-        q.add(new int[] {1, 2});
-
-        q.add(new int[] {2, 1});
-
-        q.add(new int[] {10, 100});
+        q.add(new int[] {10, 2});
 
         while(!q.isEmpty()) {
             System.out.print(q.peek()[0]);
