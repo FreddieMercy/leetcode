@@ -18,31 +18,19 @@ import java.util.concurrent.DelayQueue;
  * @author junhao.zhang.freddie
  */
 
-class Solution {
-    public int kthSmallest(int[][] matrix, int k) {
-        // Write your solution here
-        int[] rowIndex = new int[matrix.length];//assume all 0's by default
+interface sth{
+    int index  = 10;
+    void test();
+}
+class Solution implements sth {
 
-        int index=1;
+    public void test() {
+        System.out.println(index + 1);
+    }
 
-        while(k>0){
-            index = -1;
-
-            for(int i =0; i <  rowIndex.length;++i){
-                if(index == -1 && rowIndex[i] < matrix[i].length){
-                    index = i;
-                }
-                if(rowIndex[i] < matrix[i].length&&matrix[i][rowIndex[i]]<matrix[index][rowIndex[index]]){
-                    index = i;
-                }
-            }
-
-            rowIndex[index]++;
-
-            k--;
-
-        }
-        return matrix[index][rowIndex[index]-1];
+    public void kthSmallest() {
+        test();
+        System.out.println("2");
     }
 }
 
@@ -57,14 +45,7 @@ public class Leetcode {
 
     public static void main(String[] args) {
 
-        StringBuilder a = new StringBuilder( "abc");
-StringBuilder b = new StringBuilder( "abc");
-        if(a.equals(b)){
-            System.out.println(a.hashCode());
-            System.out.println(b.hashCode());
-        }
-        else{
-            System.out.println("Not equal");
-        }
+        Solution x = new Solution();
+        x.kthSmallest();
     }
 }
