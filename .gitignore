@@ -1,4 +1,6 @@
 /Java/dist/
+Java/lib/**
+Java/.idea/**
 Python/.idea/misc.xml/
 Python/.idea/workspace.xml
 Java/.idea/misc.xml
