@@ -1,4 +1,4 @@
-package go248StrobogrammaticNumberIII
+package _248StrobogrammaticNumberIII
 
 import (
 	"fmt"

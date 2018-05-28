@@ -1,4 +1,4 @@
-package go408ValidWordAbbreviation
+package _408ValidWordAbbreviation
 
 import (
 	"strconv"

@@ -1,4 +1,4 @@
-package go247StrobogrammaticNumberII
+package _247StrobogrammaticNumberII
 
 //"strconv"
 
