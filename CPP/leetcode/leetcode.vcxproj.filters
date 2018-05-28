@@ -142,14 +142,20 @@
     <Filter Include="Header Files\_2018">
       <UniqueIdentifier>{387e3732-b928-45c4-8856-30fa89d08043}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Header Files\_2018\Jan2017">
+    <Filter Include="Header Files\_2018\Apr2018">
+      <UniqueIdentifier>{4f535982-f9ec-4101-896d-41daf7f35343}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\_2018\Jan2018">
       <UniqueIdentifier>{50cdc615-12ba-4c9d-a006-c0a1e2861847}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Header Files\_2018\Jan2017\Jan02nd2017">
+    <Filter Include="Header Files\_2018\Jan2018\Jan01st2018">
+      <UniqueIdentifier>{e4e18e8d-9ff3-42f8-b842-cb59cacde3c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\_2018\Jan2018\Jan02nd2018">
       <UniqueIdentifier>{5920a70b-5cd2-4c2c-9063-30c9174b1e4f}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Header Files\_2018\Jan2017\Jan01st2017">
-      <UniqueIdentifier>{e4e18e8d-9ff3-42f8-b842-cb59cacde3c0}</UniqueIdentifier>
+    <Filter Include="Header Files\_2018\Apr2018\Apr03rd2018">
+      <UniqueIdentifier>{59f887c1-d98e-417a-8e19-046a5c11352c}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -477,22 +483,28 @@
       <Filter>Header Files\_2017\Dec2017\Dec18th2017</Filter>
     </ClInclude>
     <ClInclude Include="_514FreedomTrail.h">
-      <Filter>Header Files\_2018\Jan2017\Jan01st2017</Filter>
+      <Filter>Header Files\_2018\Jan2018\Jan01st2018</Filter>
     </ClInclude>
     <ClInclude Include="_446ArithmeticSlicesII-Subsequence.h">
-      <Filter>Header Files\_2018\Jan2017\Jan01st2017</Filter>
+      <Filter>Header Files\_2018\Jan2018\Jan01st2018</Filter>
     </ClInclude>
     <ClInclude Include="_455AssignCookies.h">
-      <Filter>Header Files\_2018\Jan2017\Jan01st2017</Filter>
+      <Filter>Header Files\_2018\Jan2018\Jan01st2018</Filter>
     </ClInclude>
     <ClInclude Include="_557ReverseWordsInAStringIII.h">
-      <Filter>Header Files\_2018\Jan2017\Jan02nd2017</Filter>
+      <Filter>Header Files\_2018\Jan2018\Jan02nd2018</Filter>
     </ClInclude>
     <ClInclude Include="_530MinimumAbsoluteDifferenceInBST.h">
-      <Filter>Header Files\_2018\Jan2017\Jan02nd2017</Filter>
+      <Filter>Header Files\_2018\Jan2018\Jan02nd2018</Filter>
     </ClInclude>
     <ClInclude Include="_729MyCalendarI.h">
-      <Filter>Header Files\_2018\Jan2017\Jan02nd2017</Filter>
+      <Filter>Header Files\_2018\Jan2018\Jan02nd2018</Filter>
+    </ClInclude>
+    <ClInclude Include="_5LongestPalindromicSubstring.h">
+      <Filter>Header Files\_2018\Apr2018\Apr03rd2018</Filter>
+    </ClInclude>
+    <ClInclude Include="_457CircularArrayLoop.h">
+      <Filter>Header Files\_2018\Apr2018\Apr03rd2018</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

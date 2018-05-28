@@ -163,6 +163,7 @@
     <ClInclude Include="_446ArithmeticSlicesII-Subsequence.h" />
     <ClInclude Include="_451SortCharactersByFrequency.h" />
     <ClInclude Include="_455AssignCookies.h" />
+    <ClInclude Include="_457CircularArrayLoop.h" />
     <ClInclude Include="_472ConcatenatedWords.h" />
     <ClInclude Include="_494TargetSum.h" />
     <ClInclude Include="_502IPO.h" />
@@ -172,6 +173,7 @@
     <ClInclude Include="_535EncodeAndDecodeTinyURL.h" />
     <ClInclude Include="_541ReverseStringII.h" />
     <ClInclude Include="_557ReverseWordsInAStringIII.h" />
+    <ClInclude Include="_5LongestPalindromicSubstring.h" />
     <ClInclude Include="_617MergeTwoBinaryTrees.h" />
     <ClInclude Include="_61RotateList.h" />
     <ClInclude Include="_643MaximumAverageSubarrayI.h" />

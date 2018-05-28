@@ -14,12 +14,12 @@
 #include <algorithm>
 #include <stack>
 #include <set>
-#include "_697DegreeOfAnArray.h"
+#include "_457CircularArrayLoop.h"
 using namespace std;
 
 int main(int argc, char*argv[])
 {
 	Solution x;
-	vector<int> tmp = { 1,2,2,3,1,4,2 };
-	cout << x.findShortestSubArray(tmp) << endl;
+	vector<int> tmp = { -1,2 };
+	cout << x.circularArrayLoop(tmp) << endl;
 }
