@@ -2,7 +2,7 @@ package _247StrobogrammaticNumberII
 
 //"strconv"
 
-func FindStrobogrammatic(n int) []string { //func findStrobogrammatic(n int) []string {
+func findStrobogrammatic(n int) []string {
 	ans := []string{""}
 	if n%2 == 1 {
 		ans = []string{"0", "1", "8"}

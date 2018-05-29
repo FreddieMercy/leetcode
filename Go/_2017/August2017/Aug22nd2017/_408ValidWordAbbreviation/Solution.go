@@ -4,9 +4,7 @@ import (
 	"strconv"
 )
 
-func ValidWordAbbreviation(word string, abbr string) bool {
-
-	//func validWordAbbreviation(word string, abbr string) bool {
+func validWordAbbreviation(word string, abbr string) bool {
 
 	var table = [10]string{"0", "1", "2", "3", "4", "5", "6", "7", "8", "9"}
 	var i, j = 0, 0

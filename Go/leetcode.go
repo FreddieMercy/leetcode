@@ -1,13 +1,13 @@
 package main
-/*
-import (
-	"fmt"
-	"./_2017/August2017/Aug22nd2017/_248StrobogrammaticNumberIII"
-)
-*/
+
+import "fmt"
+import . "./_2018/January2018/Jan05th2018/_448FindAllNumbersDisappearedinanArray"
+
 func main() {
-/*
-	fmt.Println(_248StrobogrammaticNumberIII.StrobogrammaticInRange("0", "10000"))
-	fmt.Println("Done123456789")
-*/
+
+	sth := []int{4,3,2,7,8,2,3,1}
+	fmt.Println(FindDisappearedNumbers(sth))
+	fmt.Println(sth)
+	fmt.Println("Done")
+
 }

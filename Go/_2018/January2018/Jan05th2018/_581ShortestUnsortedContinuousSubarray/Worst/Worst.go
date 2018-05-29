@@ -1,4 +1,4 @@
-package go581ShortestUnsortedContinuousSubarray_Worst
+package Worst
 
 import (
 	"sort"
