@@ -13,30 +13,16 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="Header Files\_543DiameterofBinaryTree">
-      <UniqueIdentifier>{0087354d-4da4-4572-ae36-2a891efa378d}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Header Files\_35SearchInsertPosition">
-      <UniqueIdentifier>{6afb91a7-9a3d-4564-b021-88c74ecf05e6}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="leetcode.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="_543DiameterofBinaryTree.c">
-      <Filter>Header Files\_543DiameterofBinaryTree</Filter>
-    </ClCompile>
     <ClCompile Include="_35SearchInsertPosition.c">
-      <Filter>Header Files\_35SearchInsertPosition</Filter>
+      <Filter>Header Files</Filter>
     </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="_543DiameterofBinaryTree.h">
-      <Filter>Header Files\_543DiameterofBinaryTree</Filter>
-    </ClInclude>
-    <ClInclude Include="_35SearchInsertPosition.h">
-      <Filter>Header Files\_35SearchInsertPosition</Filter>
-    </ClInclude>
+    <ClCompile Include="_543DiameterofBinaryTree.c">
+      <Filter>Header Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
