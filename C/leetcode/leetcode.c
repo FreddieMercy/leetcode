@@ -1,7 +1,8 @@
 #include <stdio.h>  
-
+#include "_35SearchInsertPosition.h"
 int main()
-{
-	printf("Hello, World! This is a native C program compiled on the command line.\n");
+{	
+	int arr[] = { 1,3,5,6 };
+	printf("%d\n", searchInsert(&arr, 4, 7));
 	return 0;
 }

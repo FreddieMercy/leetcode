@@ -1,0 +1,4 @@
+﻿  leetcode.c
+c:\users\junhao.zhang.freddie\github\leetcode\c\leetcode\leetcode.c(6): warning C4047: 'function': 'int *' differs in levels of indirection from 'int (*)[4]'
+c:\users\junhao.zhang.freddie\github\leetcode\c\leetcode\leetcode.c(6): warning C4024: 'searchInsert': different types for formal and actual parameter 1
+  leetcode.vcxproj -> C:\Users\junhao.zhang.freddie\gitHub\leetcode\C\x64\Debug\leetcode.exe

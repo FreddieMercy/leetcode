@@ -116,6 +116,12 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="leetcode.c" />
+    <ClCompile Include="_35SearchInsertPosition.c" />
+    <ClCompile Include="_543DiameterofBinaryTree.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="_35SearchInsertPosition.h" />
+    <ClInclude Include="_543DiameterofBinaryTree.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
