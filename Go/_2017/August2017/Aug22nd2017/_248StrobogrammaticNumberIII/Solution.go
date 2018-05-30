@@ -6,6 +6,11 @@ import (
 	"strings"
 )
 
+
+func StrobogrammaticInRange(low string, high string) int {
+	return strobogrammaticInRange(low, high)
+}
+
 func strobogrammaticInRange(low string, high string) int {
 	table := map[rune]int{'0': 0, '1': 1, '2': 2, '3': 3, '4': 4, '5': 5, '6': 6, '7': 7, '8': 8, '9': 9}
 	max := func(a, b int) int {

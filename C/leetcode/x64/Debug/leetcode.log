@@ -1,6 +1,2 @@
-﻿  _543DiameterofBinaryTree.c
-  _35SearchInsertPosition.c
-  leetcode.c
-c:\users\junhao.zhang.freddie\github\leetcode\c\leetcode\leetcode.c(6): warning C4013: 'searchInsert' undefined; assuming extern returning int
-  Generating Code...
+﻿  leetcode.c
   leetcode.vcxproj -> C:\Users\junhao.zhang.freddie\gitHub\leetcode\C\x64\Debug\leetcode.exe

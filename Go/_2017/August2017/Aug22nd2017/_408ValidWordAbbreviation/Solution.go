@@ -20,7 +20,6 @@ func validWordAbbreviation(word string, abbr string) bool {
 				found = true
 			}
 		}
-
 		if !found {
 			return false
 		}
