@@ -9,35 +9,7 @@ import com.sun.tools.javac.util.ArrayUtils;
 import javafx.util.Pair;
 
 import java.lang.*;
-import java.lang.reflect.Array;
-import java.util.*;
-import java.util.concurrent.DelayQueue;
-
-/**
- *
- * @author junhao.zhang.freddie
- */
-
-interface sth{
-    int index  = 10;
-    void test();
-}
-class Solution implements sth {
-
-    public void test() {
-        System.out.println(index + 1);
-    }
-
-    public void kthSmallest() {
-        test();
-        System.out.println("2");
-    }
-}
-
-
-
-
-
+import GoogleInterview.SudokuSolver.Solution;
 public class Leetcode {
     /**
      * @param args the command line arguments
@@ -46,6 +18,17 @@ public class Leetcode {
     public static void main(String[] args) {
 
         Solution x = new Solution();
-        x.kthSmallest();
+        char[][] board = new char[][] {{'.','2','6','5','.','.','.','9','.'},{'5','.','.','.','7','9','.','.','4'},{'3','.','.','.','1','.','.','.','.'},{'6','.','.','.','.','.','8','.','7'},{'.','7','5','.','2','.','.','1','.'},{'.','1','.','.','.','.','4','.','.'},{'.','.','.','3','.','8','9','.','2'},{'7','.','.','.','6','.','.','4','.'},{'.','3','.','2','.','.','1','.','.'}};
+//        char[][] board = new char[][] {{'5','3','.','.','7','.','.','.','.'},{'6','.','.','1','9','5','.','.','.'},{'.','9','8','.','.','.','.','6','.'},{'8','.','.','.','6','.','.','.','3'},{'4','.','.','8','.','3','.','.','1'},{'7','.','.','.','2','.','.','.','6'},{'.','6','.','.','.','.','2','8','.'},{'.','.','.','4','1','9','.','.','5'},{'.','.','.','.','8','.','.','7','9'}};
+        x.solveSudoku(board);
+
+        for(char[] b : board){
+            for(char c : b){
+                System.out.print(c);
+                System.out.print(' ');
+            }
+
+            System.out.println();
+        }
     }
 }
