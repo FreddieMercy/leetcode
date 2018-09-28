@@ -4,31 +4,51 @@
  * and open the template in the editor.
  */
 package leetcode;
-//import _2017.June2017.Jun10th2017._126WordLadderII.Solution;
-import com.sun.tools.javac.util.ArrayUtils;
-import javafx.util.Pair;
 
-import java.lang.*;
-import GoogleInterview.SudokuSolver.Solution;
+
+
+
+class Solution {
+
+    private void helper(int[][] costs, int house, int color,int soFar, int[] ans) {
+
+        for (int c = 0; c < costs[0].length; ++c) {
+            if (c != color) {
+                if (house==costs.length-1) {
+                    ans[0] = Math.min(ans[0], costs[house][c]+soFar);
+                } else {
+                    soFar += costs[house][c];
+                    helper(costs, house + 1, c, soFar, ans);
+                    soFar-=costs[house][c];
+                }
+            }
+        }
+    }
+    public int minCostII(int[][] costs) {
+        // Write your solution here
+        int[] ans = new int[1];
+        ans[0] = Integer.MAX_VALUE;
+
+        for (int c = 0; c < costs[0].length; ++c)
+            if(costs.length!=1)
+                helper(costs, 1, c, costs[0][c], ans);
+            else
+                ans[0] = Math.min(ans[0], costs[0][c]);
+        return ans[0];
+    }
+}
+
+
 public class Leetcode {
     /**
      * @param args the command line arguments
      */
-
     public static void main(String[] args) {
 
-        Solution x = new Solution();
-        char[][] board = new char[][] {{'.','2','6','5','.','.','.','9','.'},{'5','.','.','.','7','9','.','.','4'},{'3','.','.','.','1','.','.','.','.'},{'6','.','.','.','.','.','8','.','7'},{'.','7','5','.','2','.','.','1','.'},{'.','1','.','.','.','.','4','.','.'},{'.','.','.','3','.','8','9','.','2'},{'7','.','.','.','6','.','.','4','.'},{'.','3','.','2','.','.','1','.','.'}};
-//        char[][] board = new char[][] {{'5','3','.','.','7','.','.','.','.'},{'6','.','.','1','9','5','.','.','.'},{'.','9','8','.','.','.','.','6','.'},{'8','.','.','.','6','.','.','.','3'},{'4','.','.','8','.','3','.','.','1'},{'7','.','.','.','2','.','.','.','6'},{'.','6','.','.','.','.','2','8','.'},{'.','.','.','4','1','9','.','.','5'},{'.','.','.','.','8','.','.','7','9'}};
-        x.solveSudoku(board);
+        Solution x= new Solution();
 
-        for(char[] b : board){
-            for(char c : b){
-                System.out.print(c);
-                System.out.print(' ');
-            }
+        System.out.println(x.minCostII(new int[][]{{8,9},{8,9},{8,9},{8,9}}));
 
-            System.out.println();
-        }
+
     }
 }
