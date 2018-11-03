@@ -6,8 +6,86 @@
 package leetcode;
 
 
+import jdk.management.resource.internal.inst.InitInstrumentation;
+
+import java.util.concurrent.Callable;
+
+public class Leetcode {
+    public static void main(String[] args) {
+        Thread th1 = new Thread(){
+
+            @Override
+            public void run(){
+                for(int i = 0; i < 1000; ++i){
+                    //yield();
+                    System.out.println(i);
+                }
+            }
+
+        };
+        Thread th2 = new Thread(){
+
+            @Override
+            public void run(){
+                for(char i = 'a'; i <= 'z'; ++i){
+                    System.out.println(i);
+                }
+            }
+
+        };
+
+        Thread th3 = new Thread(new Runnable() {
+            @Override
+            public void run() {
+                for(int i = 0; i < 100; ++i)
+                    System.out.println("I am Runnable");
+            }
+        });
+        Runnable runnable = new Runnable() {
+            @Override
+            public void run() {
+                for(int i = 0; i < 100; ++i)
+                    System.out.println("I am Runnable2");
+            }
+        };
+        runnable.run();
+        th1.start();
+        th1.interrupt();
+
+        /*
+        try {
+            th1.join();
+        }
+        catch (Exception e){
+            System.out.println("-------------------------------------------------------------------------------------------");
+        }
+        */
+        th2.start();
+        th3.start();
+
+        Callable<Integer> callable = new Callable<Integer>() {
+            @Override
+            public Integer call() throws Exception {
+
+                System.out.println("I am callable");
+                return 0;
+            }
+        };
+
+        try{
+            callable.call();
+
+        }
+        catch (Exception e){
+
+        }
 
 
+    }
+}
+
+
+/*
 class Solution {
 
     private void helper(int[][] costs, int house, int color,int soFar, int[] ans) {
@@ -38,58 +116,288 @@ class Solution {
     }
 }
 
-
-public class Leetcode {
-    /**
-     * @param args the command line arguments
-     */
-    // Complete the substrCount function below.
-    private static boolean isValid(String s, int left, int right, boolean[][] dp){
-
-        if(left==right){
-            dp[left][right] = true;
-            return true;
-        }
-        if(s.charAt(left)==s.charAt(right)){
-            int mid = (right-left)/2+left;
-            if((right-left)%2==1){//even
-                dp[left][right] = (dp[left][mid]&&dp[mid+1][right]);
-                return dp[left][right];
+class Solution {
+    private boolean contains(String s, StringBuilder sb){
+        int i = 0;
+        for(int j = 0; j < s.length(); ++j){
+            if(s.charAt(j) == sb.charAt(i)){
+                i++;
             }
-            else{
-                if(dp[left][mid-1]&&dp[mid+1][right]){
-                    dp[left][right] = (s.charAt(mid) == s.charAt(left));
-                    return true;
-                }
-                return false;
+            if(i>=sb.length()){
+                return true;
             }
         }
+
         return false;
     }
-    static long substrCount(int n, String s) {
 
-        if(s==null||n<0){
-            return 0;
-        }
-
-        boolean[][] dp = new boolean[n][n];
-        long ans = 0;
-        for(int len = 0; len<n;++len){
-            for(int i = 0; i < n - len;++i){
-                if(isValid(s, i, i+len, dp)){
-                    ans++;
-                }
+    private void nextPermutation(StringBuilder sb){
+        Integer i = null;
+        for(int index = 0; index < sb.length()-1; ++index){
+            if(sb.charAt(index) < sb.charAt(index+1)){
+                i = index;
             }
         }
 
-        return ans;
+        if(i == null){
+            //throw new Exception("It is not possible");
+        }
+
+        int j = i+1;
+        for(int index = i+1; index < sb.length(); ++index){
+            if(sb.charAt(index)>sb.charAt(i)){
+                j = index;
+            }
+        }
+
+        char tmp = sb.charAt(i);
+        sb.setCharAt(i, sb.charAt(j));
+        sb.setCharAt(j, tmp);
+
+        int left = i+1;
+        int right = sb.length()-1;
+
+        while(left<right){
+            char c = sb.charAt(left);
+            sb.setCharAt(left, sb.charAt(right));
+            sb.setCharAt(right, c);
+            left++;
+            right--;
+        }
     }
-    public static void main(String[] args) {
 
+    public String removeDuplicateLetters(String s) {
+        if(s==null||s.length()==0){
+            return "";
+        }
+        boolean[] count = new boolean[26];
+        for(char c :s.toCharArray()){
+            count[c-'a'] = true;
+        }
+        StringBuilder sb = new StringBuilder();
+        for(int i = 0; i < count.length; ++i){
+            if(count[i]){
+                sb.append((char)(i+'a'));
+            }
+        }
 
-        System.out.println(substrCount(727310,
-                "ccacacabccacabaaaabbcbccbabcbbcaccabaababcbcacabcabacbbbccccabcbcabbaaaaabacbcbbbcababaabcbbaaababababbabcaabcaacacbbaccbbabbcbbcbacbacabaaaaccacbaabccabbacabaabaaaabbccbaaaabacabcacbbabbacbcbccbbbaaabaaacaabacccaacbcccaacbbcaabcbbccbccacbbcbcaaabbaababacccbacacbcbcbbccaacbbacbcbaaaacaccbcaaacbbcbbabaaacbaccaccbbabbcccbcbcbcbcabbccbacccbacabcaacbcaccabbacbbccccaabbacccaacbbbacbccbcaaaaaabaacaaabccbbcccaacbacbccaaacaacaaaacbbaaccacbcbaaaccaabcbccacaaccccacaacbcacccbcababcabacaabbcacccbacbbaaaccabbabaaccabbcbbcaabbcabaacabacbcabbaaabccabcacbcbabcbccbabcabbbcbacaaacaabbbabbaacbbacaccccabbabcbcabababbcbaaacbaacbacacbabbcacccbccbbbcbcabcabbbcaabbaccccabaabbcbcccabaacccccaaacbbbcbcacacbabaccccbcbabacaaaabcccaaccacbcbbcccaacccbbcaaaccccaabacabcabbccaababbcabccbcaccccbaaabbbcbabaccacaabcabcbacaccbaccbbaabccbbbccaccabccbabbbccbaabcaabcabcbbabccbaaccabaacbbaaaabcbcabaacacbcaabbaaabaaccacbaacababcbacbaacacccacaacbacbbaacbcbbbabccbababcbcccbccbcacccbababbcacaaaaacbabcabcacaccabaabcaaaacacbcc"));
+        while(!contains(s, sb)){
+            nextPermutation(sb);
+        }
 
-
+        return sb.toString();
     }
 }
+
+
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
+
+class Solution {
+    static class Ptr{
+        Set<String> ans = new HashSet<>();
+        int size = Integer.MAX_VALUE;
+    }
+    private void helper(String s, StringBuilder sb, int index, Ptr ptr, int left, int right){
+        if(index>=s.length()){
+            if(left==right){
+                int tmp = s.length()-sb.length();
+                if(tmp<ptr.size){
+                    ptr.size = tmp;
+                    ptr.ans = new HashSet<>();
+                    ptr.ans.add(sb.toString());
+                }
+                else if(tmp==ptr.size){
+                    ptr.ans.add(sb.toString());
+                }
+            }
+
+            return;
+        }
+        for(int i = index; i < s.length();++i){
+            boolean added = true;
+            char c = s.charAt(i);
+            int l = left;
+            int r = right;
+            if(c!=')'&&c!='('){
+                sb.append(c);
+                helper(s, sb, i+1, ptr, l, r);
+                sb.deleteCharAt(sb.length()-1);
+                return;
+            }
+            else{
+                if(c=='('){
+                    sb.append(c);
+                    l++;
+                }
+                else{
+                    if(left>right){
+                        sb.append(c);
+                        r++;
+                    }
+                    else{
+                        added = false;
+                    }
+                }
+            }
+
+            if(added){
+                helper(s, sb, i+1, ptr, l, r);
+                sb.deleteCharAt(sb.length()-1);
+            }
+        }
+
+        helper(s, sb, Integer.MAX_VALUE, ptr, left, right);
+    }
+    public List<String> removeInvalidParentheses(String s) {
+        //10:45
+        //"" is valid
+        //ignore non-p
+        Ptr ptr = new Ptr();
+
+        helper(s, new StringBuilder(), 0, ptr,0, 0);
+
+        if(ptr.ans.size()==0){
+            ptr.ans.add("");
+        }
+
+        List<String> rtn = new ArrayList<>();
+
+        for(String str : ptr.ans){
+            rtn.add(str);
+        }
+
+        return rtn;
+    }
+}
+
+
+class Solution {
+    public String helper(StringBuilder s, int[] index, boolean[] open) {
+        //3:37
+        StringBuilder sn = new StringBuilder();
+        int num = -1;
+        //num==0
+        //num not set
+        int i = index[0];
+        while(i < s.length()){
+            int d = s.charAt(i)-'0';
+            if(0<=d&&d<=9){
+                if(num<0){
+                    num = 0;
+                }
+                num*=10;
+                num+=d;
+            }
+            else{
+                if(open[0]&&s.charAt(i)==']'){
+                    i++;
+                    open[0]=false;
+                    break;
+                }
+                if(s.charAt(i)=='['&&num>=0){//brack unbalanced //num==-1 still?
+                    i++;
+                    int[] tmp  = new int[]{i};
+                    boolean[] found = new boolean[]{true};
+                    String str = helper(s, tmp, found);
+                    i = tmp[0];
+
+                    if(found[0]){
+                        sn.append(""+num);
+                        sn.append(str);
+                    }
+                    else{
+                        for(int j = 0; j < num;++j){
+                            sn.append(str);
+                        }
+                        num = -1;
+                        continue;
+                    }
+                }
+                else{
+                    if(num>=0){
+                        sn.append(""+num);
+                        num=-1;
+                    }
+                    sn.append(s.charAt(i));
+                }
+
+            }
+            ++i;
+        }
+        index[0]=i;
+        return sn.toString();
+    }
+    public String decodeString(String s) {
+        return helper(new StringBuilder(s), new int[1], new boolean[]{false});
+    }
+}
+public class Leetcode {
+    class Solution {
+        public String helper(StringBuilder s, int[] index, boolean[] open) {
+            //3:37
+            StringBuilder sn = new StringBuilder();
+            int num = -1;
+            //num==0
+            //num not set
+            int i = index[0];
+            while(i < s.length()){
+                int d = s.charAt(i)-'0';
+                if(0<=d&&d<=9){
+                    if(num<0){
+                        num = 0;
+                    }
+                    num*=10;
+                    num+=d;
+                }
+                else{
+                    if(open[0]&&s.charAt(i)==']'){
+                        i++;
+                        open[0]=false;
+                        break;
+                    }
+                    if(s.charAt(i)=='['&&num>=0){//brack unbalanced //num==-1 still?
+                        i++;
+                        int[] tmp  = new int[]{i};
+                        boolean[] found = new boolean[]{true};
+                        String str = helper(s, tmp, found);
+                        i = tmp[0];
+
+                        if(found[0]){
+                            sn.append(""+num);
+                            sn.append(str);
+                        }
+                        else{
+                            for(int j = 0; j < num;++j){
+                                sn.append(str);
+                            }
+                            num = -1;
+                            continue;
+                        }
+                    }
+                    else{
+                        if(num>=0){
+                            sn.append(""+num);
+                            num=-1;
+                        }
+                        sn.append(s.charAt(i));
+                    }
+
+                }
+                ++i;
+            }
+            index[0]=i;
+            return sn.toString();
+        }
+        public String decodeString(String s) {
+            return helper(new StringBuilder(s), new int[1], new boolean[]{false});
+        }
+    }
+    public static void main(String[] args) {
+        Solution x = new Solution();
+        System.out.println(x.decodeString("3[a2[c]]"));
+    }
+}
+*/
