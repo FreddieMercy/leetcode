@@ -8,9 +8,42 @@ package leetcode;
 
 import jdk.management.resource.internal.inst.InitInstrumentation;
 
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Random;
 import java.util.concurrent.Callable;
 
+class q6_7 {
+    /**
+     * ratio 1:1
+     */
+    private static int boys = 0;
+    private static int girls = 0;
+    private static int families = 10000;
+
+    public static void testAlgo(){
+        for (int i = 0; i < families; i++){
+            Random r = new Random();
+            int b = 0;
+            int g = 0;
+            while (g == 0){
+                if (r.nextBoolean()){
+                    g++;
+                }
+                else{
+                    b++;
+                }
+            }
+            boys += b;
+            girls += g;
+            float ratio = girls / (float)(boys + girls);
+            System.out.println("#" + (i+1) + " family: G-" + girls + " B-" + boys + " Ratio:" + ratio);
+        }
+    }
+}
+
 public class Leetcode {
+
     public static void main(String[] args) {
         Thread th1 = new Thread(){
 
@@ -48,9 +81,9 @@ public class Leetcode {
                     System.out.println("I am Runnable2");
             }
         };
-        runnable.run();
-        th1.start();
-        th1.interrupt();
+        //runnable.run();
+        //th1.start();
+        //th1.interrupt();
 
         /*
         try {
@@ -60,8 +93,8 @@ public class Leetcode {
             System.out.println("-------------------------------------------------------------------------------------------");
         }
         */
-        th2.start();
-        th3.start();
+        //th2.start();
+        //th3.start();
 
         Callable<Integer> callable = new Callable<Integer>() {
             @Override
@@ -80,7 +113,41 @@ public class Leetcode {
 
         }
 
+        for(Integer i : primesTo(100)){
+            System.out.print(i);
+            System.out.print(" ");
+        }
 
+        q6_7 x = new q6_7();
+        x.testAlgo();
+
+    }
+
+    private static List<Integer>  primesTo(int n){
+        List<Integer> ans = new ArrayList<>();
+        boolean[] flags = new boolean[n+1];
+        Integer prime = 2;
+        while(prime!=null&&prime<=n){
+            crossOff(flags, prime);
+            ans.add(prime);
+            prime = nextPrime(flags, prime);
+        }
+
+        return ans;
+    }
+
+    private static void crossOff(boolean[] flags, int prime){
+        for(int i = prime*prime; i < flags.length; i+=prime){
+            flags[i]=true;
+        }
+    }
+    private static Integer nextPrime(boolean[] flags, int prime){
+        for(int i = prime+1; i < flags.length; i++){
+            if(!flags[i]){
+                return i;
+            }
+        }
+        return null;
     }
 }
 
