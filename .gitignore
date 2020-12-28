@@ -69,19 +69,11 @@ fabric.properties
 
 # Android studio 3.1+ serialized cache file
 .idea/caches/build_file_checksums.ser
-/Java/dist/
-Java/lib/**
-Java/.idea/**
-Python/.idea/
-Java/.idea/misc.xml
-Java/.idea/modules.xml
-Java/.idea/workspace.xml
-Java/out/**
+
 Scala/build.sbt
 Scala/project/**
 Scala/target/**
 Scala/.idea/**
 Swift/.vscode
 Swift/leetcode.xcodeproj
-Java/.idea/vcs.xml
 .DS_Store
