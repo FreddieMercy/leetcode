@@ -13,4 +13,4 @@ Scala/.idea/**
 Swift/.vscode
 Swift/leetcode.xcodeproj
 Java/.idea/vcs.xml
-**/.DS_Store
+.DS_Store
