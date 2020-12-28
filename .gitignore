@@ -1,8 +1,7 @@
 /Java/dist/
 Java/lib/**
 Java/.idea/**
-Python/.idea/misc.xml/
-Python/.idea/workspace.xml
+Python/.idea/**
 Java/.idea/misc.xml
 Java/.idea/modules.xml
 Java/.idea/workspace.xml
@@ -14,3 +13,4 @@ Scala/.idea/**
 Swift/.vscode
 Swift/leetcode.xcodeproj
 Java/.idea/vcs.xml
+**/.DS_Store
