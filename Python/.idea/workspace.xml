@@ -19,11 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b943a46a-fbcd-4ec1-8f57-643c86977993" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/Python.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Python.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="b943a46a-fbcd-4ec1-8f57-643c86977993" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -82,7 +78,7 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="$USER_HOME$/Pycharm/PyCharm Virtual Environments/venv/bin/python" />
+      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/Python3/bin/python" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/_2017/September2017/Sep04th2017" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -131,10 +127,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="360" y="219" width="1071" height="706" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1609200770946">
+    <state x="360" y="219" width="1071" height="706" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1609200860200">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="360" y="219" width="1071" height="706" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1609200770946" />
+    <state x="360" y="219" width="1071" height="706" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1609200860200" />
     <state x="608" y="617" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1607925794248">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
@@ -143,22 +139,22 @@
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="684" y="318" key="FileChooserDialogImpl/0.0.1792.1120@0.0.1792.1120" timestamp="1609200798076" />
-    <state width="1771" height="318" key="GridCell.Tab.0.bottom" timestamp="1609200475952">
+    <state width="1771" height="318" key="GridCell.Tab.0.bottom" timestamp="1609200810899">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1771" height="318" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1609200475952" />
-    <state width="1771" height="318" key="GridCell.Tab.0.center" timestamp="1609200475951">
+    <state width="1771" height="318" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1609200810899" />
+    <state width="1771" height="318" key="GridCell.Tab.0.center" timestamp="1609200810898">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1771" height="318" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1609200475951" />
-    <state width="1771" height="318" key="GridCell.Tab.0.left" timestamp="1609200475951">
+    <state width="1771" height="318" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1609200810898" />
+    <state width="1771" height="318" key="GridCell.Tab.0.left" timestamp="1609200810897">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1771" height="318" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1609200475951" />
-    <state width="1771" height="318" key="GridCell.Tab.0.right" timestamp="1609200475952">
+    <state width="1771" height="318" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1609200810897" />
+    <state width="1771" height="318" key="GridCell.Tab.0.right" timestamp="1609200810898">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1771" height="318" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1609200475952" />
+    <state width="1771" height="318" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1609200810898" />
     <state x="405" y="196" key="SettingsEditor" timestamp="1609200804796">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
